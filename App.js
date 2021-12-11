@@ -68,8 +68,6 @@ const App = () => {
         value={name}
         onChangeText={SetName}
       ></TextInput>
-
-
       <TextInput
         style={styles.Input}
         placeholder="Enter your age"
@@ -123,7 +121,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     margin: 5,
     borderRadius: 5,
-    padding:8
+    padding: 8
   },
   Boton: {
     width: '60%',
